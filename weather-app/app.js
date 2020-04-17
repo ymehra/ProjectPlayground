@@ -1,4 +1,3 @@
-// const yargs = require('yargs')
 const chalk = require('chalk')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
@@ -21,18 +20,3 @@ if (!address) {
 		})
 	})
 }
-
-// yargs.command({
-// 	command  : 'weather',
-// 	describe : 'provide an address',
-// 	builder  : {
-// 		address : {
-// 			describe     : 'Address',
-// 			demandOption : true,
-// 			type         : 'string'
-// 		}
-// 	},
-// 	handler(argv) {}
-// })
-
-// yargs.parse()
